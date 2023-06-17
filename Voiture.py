@@ -7,3 +7,5 @@ class Voiture:
 
     def affichier(self):
         print('Cettte voiture est:', self.marque, self.modele, self.couleur, 'et elle est à ', self.proprietaire)
+
+

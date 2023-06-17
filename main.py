@@ -62,3 +62,4 @@ liste_v[3].proprietaire = liste[1].prenom
 for x in liste_v:
     x.affichier()
 
+# à corriger
