@@ -1,21 +1,11 @@
-
-
-#class ::
-
 class Voiture:
-    def __init__(self,marque,modele,anne,couleur):
-        self.marque = marque
-        self.modele = modele
-        self.anne = anne
-        self.couleur = couleur
+    def __init__(self, v_marque, v_modele, v_couleur):
+        self.marque = v_marque
+        self.modele = v_modele
+        self.couleur = v_couleur
+        self.proprietaire = None
 
-    def afficher(self):
-        print(self.marque, self.modele, self.anne, self.couleur)
+    def affichier(self):
+        print('Cettte voiture est:', self.marque, self.modele, self.couleur, 'et elle est à ', self.proprietaire)
 
-liste= []
-liste.append(Voiture('Mazda', 'Cx-30', '2021','rouge'))
-liste.append(Voiture('Nissan', 'Rogue', '2022','noir'))
-liste.append(Voiture('Honda','CRV', '2023','gris'))
 
-for x in liste:
-    x.afficher()
