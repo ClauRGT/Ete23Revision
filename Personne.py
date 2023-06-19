@@ -4,5 +4,7 @@ class Personne:
         self.prenom = p_prenom
         self.age = p_age
 
+    
+
     def afficher(self):
         print('Je suis ', self.prenom, 'et j ai', self.age)
